@@ -8,7 +8,7 @@ with experience building and maintaining responsive websites. Proficient in HTML
 
 Phone: +7 928 8822948
 E-mail: dubrovinalv24@gmail.com
-Discord: Meterpreter#6485
+Discord: Мeterpreter#8360
 
 ## Tech Skills
 
