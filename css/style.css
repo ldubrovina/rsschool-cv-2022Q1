@@ -230,6 +230,10 @@ body {
 }
 /* Footer*/
 .page-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   text-align: center;
   padding: 20px;
   background-color: #638fe0;
