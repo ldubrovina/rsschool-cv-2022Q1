@@ -20,7 +20,7 @@ Discord: Мeterpreter#8360
 - React+Redux
 - Basic PHP
 - VS Code
-- Figma
+- Figma/Avocode
 - Docker
 
 ## Soft Skills
