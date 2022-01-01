@@ -21,21 +21,37 @@
     <title>My CV</title>
   </head>
   <body>
-    <!-- Main conteiner -->
+    <div class="conteiner">
+        <header class="header">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#tech-skills" class="nav-link">Tech Skills</a></li>
+              <li class="nav-item"><a href="#soft-skills" class="nav-link">Soft Skills</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">My Code</a></li>
+            </ul>
+          </nav>
+        </header>
+        <!-- Main conteiner -->
     <div class="main-conteiner">
-      <!-- Main content sections -->
-      <div class="main-content-section">
+        <!-- Main content sections -->
+        <div class="main-content-section">
         <!-- About me section-->
-        <div class="about-me-section">
+        <section class="about-me-section" id="profile">
           <h2 class="about-me-profession">Front-End Developer</h2>
           <h1 class="about-me-name">Lyudmila Dubrovina</h1>
           <p class="about-me-description">
             Beginner Front End Developer with experience building and maintaining responsive
             websites. Proficient in HTML, CSS.
           </p>
-        </div>
+          <p class="about-me-description">My Enlish lvl is A2. I learn English every day.</p>
+        </section>
         <!--My projects section-->
-        <div class="my-projects-section">
+        <section class="my-projects-section" id="projects">
           <h3 class="main-content-title">Projects</h3>
           <ol class="my-projects-list">
             <li class="my-projects-item">
@@ -81,13 +97,13 @@
               </span>
             </li>
           </ol>
-        </div>
+        </section>
         <!--My work experience section-->
-        <div class="my-work-experience-section">
+        <section class="my-work-experience-section" id="experience">
           <h3 class="main-content-title">Work Experience</h3>
-        </div>
+        </section>
         <!--My company 4 section-->
-        <div class="my-work-experience-company-block">
+        <section class="my-work-experience-company-block">
           <h4 class="my-work-experience-position">
             Assessor <span class="my-work-experience-company">toloka.yandex.ru</span>
           </h4>
@@ -98,9 +114,9 @@
           <ul class="my-work-experience-dutys">
             <li class="my-work-experience-duty-item">Testing sites.</li>
           </ul>
-        </div>
+        </section>
         <!--My company 3 section-->
-        <div class="my-work-experience-company-block">
+        <section class="my-work-experience-company-block">
           <h4 class="my-work-experience-position">
             Front-End Developer <span class="my-work-experience-company">Freelance</span>
           </h4>
@@ -118,9 +134,9 @@
             <li class="my-work-experience-duty-item">Refactoring someone else's code.</li>
             <li class="my-work-experience-duty-item">Testing sites.</li>
           </ul>
-        </div>
+        </section>
         <!--My education section-->
-        <div class="my-education-section">
+        <section class="my-education-section" id="education">
           <h3 class="main-content-title">Education</h3>
           <h4 class="my-education-name">Moscow Technological Institute</h4>
           <p class="my-education-period">
@@ -136,14 +152,15 @@
             Federation
           </p>
           <h5 class="my-education-qualification">Psychology</h5>
-          <div class="my-education-section">
-            <h3 class="main-content-title">Code Example</h3>
-            <p><pre><code>
+          <section class="my-education-section">
+            <h3 class="main-content-title" id="code">Code Example</h3>
+            <p>
+              <pre><code>
               var countBits = function(n) { var result = n.toString(2).match(/1/g); if (result){
               return result.length; } return 0; };</code></pre>
             </p>
-          </div>
-        </div>
+          </section>
+        </section>
       </div>
       <!-- Sidebar section-->
 
@@ -152,7 +169,7 @@
 
         <div>
           <!-- Contacts-section -->
-          <div class="contacts-section">
+          <section class="contacts-section" id="contacts">
             <h3>Contacts</h3>
             <div>
               <span class="contact-section-type">C:</span>
@@ -164,17 +181,17 @@
                 >dubrovinalv24@gmail.com</a
               >
             </div>
+            <div>
+            <span class="contact-section-type">Discord:</span><span class="contact-section-link">Мeterpreter#8360</span>
           </div>
+            </section>
 
           <!-- Tech Skills section-->
-          <div class="tech-skills-section">
+          <section class="tech-skills-section" id="tech-skills">
             <h3 class="sidebar-title">Tech Skills</h3>
             <ul class="tech-skills-list">
               <li class="tech-skills-item"><span class="tech-skills-item-text">HTML5</span></li>
               <li class="tech-skills-item"><span class="tech-skills-item-text">CSS3</span></li>
-              <li class="tech-skills-item">
-                <span class="tech-skills-item-text">English - A2</span>
-              </li>
               <li class="tech-skills-item">
                 <span class="tech-skills-item-text">Basic JS</span>
               </li>
@@ -191,10 +208,10 @@
                 <span class="tech-skills-item-text">Docker</span>
               </li>
             </ul>
-          </div>
+          </section>
 
           <!-- Soft Skills section-->
-          <div class="soft-skills-section">
+          <section class="soft-skills-section" id="soft-skills">
             <h3 class="sidebar-title">Soft Skills</h3>
             <ul class="soft-skills-list">
               <li class="soft-skills-item">
@@ -208,11 +225,12 @@
               </li>
               <li class="soft-skills-item"><span class="soft-skills-item-text">Teamwork</span></li>
             </ul>
-          </div>
+          </section>
           </div>
         </aside>
         
     </div>
+  </div>
    <!--Footer-->
    <footer class="page-footer">
     <a href="https://github.com/ldubrovina" title="My github">
